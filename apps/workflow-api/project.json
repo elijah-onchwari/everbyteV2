@@ -1,0 +1,24 @@
+{
+  "name": "workflow-api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/workflow-api/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "workflow-api:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "workflow-api:build:development"
+        },
+        "production": {
+          "buildTarget": "workflow-api:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}

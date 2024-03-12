@@ -1,0 +1,9 @@
+{
+  "name": "everbyte-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/everbyte-e2e/src",
+  "targets": {},
+  "tags": [],
+  "implicitDependencies": ["everbyte"]
+}

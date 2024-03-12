@@ -1,0 +1,8 @@
+{
+  "name": "workflow-dtos",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/workflow-dtos/src",
+  "projectType": "library",
+  "targets": {},
+  "tags": []
+}

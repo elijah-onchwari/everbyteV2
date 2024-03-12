@@ -1,0 +1,8 @@
+{
+  "name": "workflow-data",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/workflow-data/src",
+  "projectType": "library",
+  "targets": {},
+  "tags": []
+}

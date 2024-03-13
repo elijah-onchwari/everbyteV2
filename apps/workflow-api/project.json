@@ -4,6 +4,26 @@
   "sourceRoot": "apps/workflow-api/src",
   "projectType": "application",
   "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "main": "apps/workflow-api/src/main.ts",
+        "tsConfig": "apps/workflow-api/tsconfig.app.json",
+        "assets": ["apps/workflow-api/src/assets"],
+        "outputHashing": "none",
+        "optimization": false,
+        "webpackConfig": "apps/workflow-api/webpack.config.js",
+        "outputPath": "dist/apps/workflow-api"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
     "serve": {
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",

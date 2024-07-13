@@ -1,0 +1,843 @@
+[NX Daemon Server] - 2024-07-13T07:39:20.576Z - Started listening on: /var/folders/z5/70btsvk538x4x23p19d9f1zh0000gn/T/5008cc19dba35c81c3f3/d.sock
+[NX Daemon Server] - 2024-07-13T07:39:20.580Z - [WATCHER]: Subscribed to changes within: /Users/ely/Desktop/apps/everbyte (native)
+[NX Daemon Server] - 2024-07-13T07:39:20.582Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:39:20.583Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T07:39:20.584Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:39:20.587Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-13T07:39:20.588Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-13T07:39:20.588Z - Handled GLOB. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-07-13T07:39:20.653Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:20.653Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:20.653Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:20.806Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:20.806Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:20.807Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-13T07:39:21.159Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.159Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.159Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.162Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.162Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.162Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-13T07:39:21.219Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.219Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.219Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.431Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.431Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.431Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.436Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.436Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.436Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.440Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.440Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.440Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.444Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.444Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.444Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.447Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.447Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.447Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.450Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.450Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.450Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.453Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.453Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.453Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.456Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.456Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.456Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.460Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.460Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.460Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.463Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.463Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.463Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.466Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.466Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.466Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.468Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.469Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.469Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-13T07:39:21.471Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.471Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.471Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.474Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.474Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.474Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.562Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.562Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.562Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.563Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.563Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.563Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.564Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.564Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.564Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.564Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.564Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.564Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.565Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.565Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.565Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.565Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.565Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.565Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.566Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.566Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.566Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.566Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.566Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.566Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.567Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.567Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.567Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.567Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.567Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.567Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.568Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.568Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.568Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.568Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.568Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.568Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.569Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.569Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.569Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.569Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.569Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.569Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.570Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.570Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.570Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.570Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.570Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.570Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:21.571Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.571Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-13T07:39:21.571Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:22.055Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-13T07:39:22.055Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-13T07:39:22.055Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:39:22.272Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:41:02.399Z - Started listening on: /var/folders/z5/70btsvk538x4x23p19d9f1zh0000gn/T/5008cc19dba35c81c3f3/d.sock
+[NX Daemon Server] - 2024-07-13T07:41:02.400Z - [WATCHER]: Subscribed to changes within: /Users/ely/Desktop/apps/everbyte (native)
+[NX Daemon Server] - 2024-07-13T07:41:02.401Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:41:02.402Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T07:41:02.403Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:41:02.403Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T07:41:02.493Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:41:02.493Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:41:02.493Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T07:41:03.697Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T07:41:03.697Z - Time taken for 'total for creating and serializing project graph' 1293.245083ms
+[NX Daemon Server] - 2024-07-13T07:41:03.698Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-07-13T07:41:03.699Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T07:41:03.700Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1294. Response time: 3.
+[NX Daemon Server] - 2024-07-13T07:41:03.732Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:41:03.732Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-07-13T07:41:03.732Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:41:03.794Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:41:03.794Z - Time taken for 'hash changed files from watcher' 0.14799999999991087ms
+[NX Daemon Server] - 2024-07-13T07:41:03.794Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:41:03.794Z - Handled HASH_TASKS. Handling time: 63. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:41:04.185Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:41:06.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:42:14.533Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:43:11.359Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:43:11.360Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T07:43:11.363Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:43:11.367Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T07:43:11.369Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T07:43:11.370Z - Time taken for 'total for creating and serializing project graph' 1.4839579999970738ms
+[NX Daemon Server] - 2024-07-13T07:43:11.373Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T07:43:11.373Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
+[NX Daemon Server] - 2024-07-13T07:43:11.436Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:43:11.436Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:43:11.436Z - Handled HASH_TASKS. Handling time: 27. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:43:12.041Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:43:14.172Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:45:45.105Z - [WATCHER]: apps/workflow-api/webpack.config.js was modified
+[NX Daemon Server] - 2024-07-13T07:45:45.107Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:45:45.215Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:45:45.215Z - [REQUEST]: apps/workflow-api/webpack.config.js
+[NX Daemon Server] - 2024-07-13T07:45:45.215Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [ '@nestjs/core', '@nestjs/common', 'typeorm' ]
+}
+[NX Daemon Server] - 2024-07-13T07:45:45.400Z - Time taken for 'hash changed files from watcher' 2.3761669999803416ms
+[NX Daemon Server] - 2024-07-13T07:45:50.681Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:45:52.857Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:45:52.857Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:45:52.857Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:45:52.859Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T07:45:52.859Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T07:45:52.860Z - Time taken for 'total for creating and serializing project graph' 0.41183299996191636ms
+[NX Daemon Server] - 2024-07-13T07:45:52.862Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T07:45:52.862Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-07-13T07:45:52.929Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:45:52.929Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:45:52.929Z - Handled HASH_TASKS. Handling time: 38. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:45:53.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:45:55.511Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:46:13.465Z - [WATCHER]: apps/workflow-api/webpack.config.js was modified
+[NX Daemon Server] - 2024-07-13T07:46:13.466Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:46:13.569Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:46:13.569Z - [REQUEST]: apps/workflow-api/webpack.config.js
+[NX Daemon Server] - 2024-07-13T07:46:13.569Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [ '@nestjs/core', '@nestjs/common' ]
+}
+[NX Daemon Server] - 2024-07-13T07:46:13.685Z - Time taken for 'hash changed files from watcher' 0.7802089999895543ms
+[NX Daemon Server] - 2024-07-13T07:46:17.739Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:46:19.426Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:46:19.427Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:46:19.427Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:46:19.428Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T07:46:19.429Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T07:46:19.429Z - Time taken for 'total for creating and serializing project graph' 0.4190420000231825ms
+[NX Daemon Server] - 2024-07-13T07:46:19.432Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T07:46:19.432Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-07-13T07:46:19.495Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:46:19.495Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:46:19.495Z - Handled HASH_TASKS. Handling time: 38. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:46:19.963Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:46:21.901Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:46:59.258Z - [WATCHER]: apps/workflow-api/webpack.config.js was modified
+[NX Daemon Server] - 2024-07-13T07:46:59.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:46:59.367Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:46:59.367Z - [REQUEST]: apps/workflow-api/webpack.config.js
+[NX Daemon Server] - 2024-07-13T07:46:59.367Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:46:59.474Z - Time taken for 'hash changed files from watcher' 2.486208999995142ms
+[NX Daemon Server] - 2024-07-13T07:47:29.398Z - [WATCHER]: libs/config/src/config/config.service.ts was modified
+[NX Daemon Server] - 2024-07-13T07:47:29.399Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:47:29.601Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:47:29.602Z - [REQUEST]: libs/config/src/config/config.service.ts
+[NX Daemon Server] - 2024-07-13T07:47:29.602Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:47:29.758Z - Time taken for 'hash changed files from watcher' 0.4475000000093132ms
+[NX Daemon Server] - 2024-07-13T07:47:29.971Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:49:01.013Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:50:31.786Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-07-13T07:50:31.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:50:31.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:50:31.978Z - [WATCHER]: Stopping the watcher for /Users/ely/Desktop/apps/everbyte (sources)
+[NX Daemon Server] - 2024-07-13T07:50:31.979Z - [WATCHER]: Stopping the watcher for /Users/ely/Desktop/apps/everbyte (outputs)
+[NX Daemon Server] - 2024-07-13T07:50:31.979Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-07-13T07:51:46.280Z - Started listening on: /var/folders/z5/70btsvk538x4x23p19d9f1zh0000gn/T/5008cc19dba35c81c3f3/d.sock
+[NX Daemon Server] - 2024-07-13T07:51:46.282Z - [WATCHER]: Subscribed to changes within: /Users/ely/Desktop/apps/everbyte (native)
+[NX Daemon Server] - 2024-07-13T07:51:46.283Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:51:46.284Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T07:51:46.285Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:51:46.285Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T07:51:46.378Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:51:46.378Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:51:46.378Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [ '@nestjs/core', '@nestjs/common', 'typeorm' ]
+}
+[NX Daemon Server] - 2024-07-13T07:51:47.632Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T07:51:47.633Z - Time taken for 'total for creating and serializing project graph' 1346.531291ms
+[NX Daemon Server] - 2024-07-13T07:51:47.634Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-07-13T07:51:47.635Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T07:51:47.636Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1347. Response time: 4.
+[NX Daemon Server] - 2024-07-13T07:51:47.665Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:51:47.665Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-07-13T07:51:47.665Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:51:47.732Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:51:47.733Z - Time taken for 'hash changed files from watcher' 0.14229199999999764ms
+[NX Daemon Server] - 2024-07-13T07:51:47.733Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:51:47.733Z - Handled HASH_TASKS. Handling time: 67. Response time: 1.
+[NX Daemon Server] - 2024-07-13T07:51:48.135Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:51:50.343Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:52:04.411Z - [WATCHER]: libs/config/src/config/config.service.ts was modified
+[NX Daemon Server] - 2024-07-13T07:52:04.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:52:04.514Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:52:04.514Z - [REQUEST]: libs/config/src/config/config.service.ts
+[NX Daemon Server] - 2024-07-13T07:52:04.514Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T07:52:04.660Z - Time taken for 'hash changed files from watcher' 0.23579099999915343ms
+[NX Daemon Server] - 2024-07-13T07:52:04.992Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:53:08.017Z - [WATCHER]: apps/workflow-api/webpack.config.js was modified
+[NX Daemon Server] - 2024-07-13T07:53:08.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:53:08.222Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T07:53:08.222Z - [REQUEST]: apps/workflow-api/webpack.config.js
+[NX Daemon Server] - 2024-07-13T07:53:08.223Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T07:53:08.321Z - Time taken for 'hash changed files from watcher' 0.9007500000006985ms
+[NX Daemon Server] - 2024-07-13T07:53:10.839Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:53:12.729Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:53:12.730Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:53:12.730Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T07:53:12.731Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T07:53:12.731Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T07:53:12.732Z - Time taken for 'total for creating and serializing project graph' 0.18116700000246055ms
+[NX Daemon Server] - 2024-07-13T07:53:12.735Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T07:53:12.735Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-07-13T07:53:12.774Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:53:12.774Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T07:53:12.774Z - Handled HASH_TASKS. Handling time: 10. Response time: 0.
+[NX Daemon Server] - 2024-07-13T07:53:13.353Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:53:15.617Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:53:18.224Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T07:55:03.831Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-07-13T07:55:03.832Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T07:55:03.832Z - [WATCHER]: Stopping the watcher for /Users/ely/Desktop/apps/everbyte (sources)
+[NX Daemon Server] - 2024-07-13T07:55:03.832Z - [WATCHER]: Stopping the watcher for /Users/ely/Desktop/apps/everbyte (outputs)
+[NX Daemon Server] - 2024-07-13T07:55:03.833Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"

@@ -1,9 +1,9 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { BaseConfigService } from './base-config.service';
-import { PostgresConnectionOptions } from 'typeorm/driver/postgres/PostgresConnectionOptions';
 import { RedisOptions } from 'ioredis';
 import { join } from 'path';
 import { EnvConfigs } from '../interfaces/config.interface';
+import { PostgresConnectionOptions } from 'typeorm/driver/postgres/PostgresConnectionOptions';
 @Injectable()
 export class ConfigService {
   private readonly env: any;

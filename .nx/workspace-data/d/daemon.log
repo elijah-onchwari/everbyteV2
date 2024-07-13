@@ -841,3 +841,1629 @@
 [NX Daemon Server] - 2024-07-13T07:55:03.832Z - [WATCHER]: Stopping the watcher for /Users/ely/Desktop/apps/everbyte (sources)
 [NX Daemon Server] - 2024-07-13T07:55:03.832Z - [WATCHER]: Stopping the watcher for /Users/ely/Desktop/apps/everbyte (outputs)
 [NX Daemon Server] - 2024-07-13T07:55:03.833Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-07-13T08:01:44.551Z - Started listening on: /var/folders/z5/70btsvk538x4x23p19d9f1zh0000gn/T/5008cc19dba35c81c3f3/d.sock
+[NX Daemon Server] - 2024-07-13T08:01:44.559Z - [WATCHER]: Subscribed to changes within: /Users/ely/Desktop/apps/everbyte (native)
+[NX Daemon Server] - 2024-07-13T08:01:44.559Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:01:44.560Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T08:01:44.561Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:01:44.561Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:01:44.650Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:01:44.650Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T08:01:44.650Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [ '@nestjs/core', '@nestjs/common', '@nestjs/mapped-types' ]
+}
+[NX Daemon Server] - 2024-07-13T08:01:45.791Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:01:45.792Z - Time taken for 'total for creating and serializing project graph' 1230.084917ms
+[NX Daemon Server] - 2024-07-13T08:01:45.794Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:01:45.794Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1230. Response time: 3.
+[NX Daemon Server] - 2024-07-13T08:01:45.841Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:01:45.841Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:01:45.841Z - Handled HASH_TASKS. Handling time: 12. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:01:46.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:01:49.307Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:01:53.656Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:02:53.164Z - [WATCHER]: apps/workflow-api/webpack.config.js was modified
+[NX Daemon Server] - 2024-07-13T08:02:53.165Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:02:53.270Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:02:53.271Z - [REQUEST]: apps/workflow-api/webpack.config.js
+[NX Daemon Server] - 2024-07-13T08:02:53.271Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T08:02:53.376Z - Time taken for 'hash changed files from watcher' 0.9514170000038575ms
+[NX Daemon Server] - 2024-07-13T08:02:55.536Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:02:55.537Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:02:55.537Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:02:55.538Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:02:55.538Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:02:55.538Z - Time taken for 'total for creating and serializing project graph' 0.1925829999963753ms
+[NX Daemon Server] - 2024-07-13T08:02:55.541Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:02:55.541Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-07-13T08:02:55.580Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:02:55.580Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:02:55.580Z - Handled HASH_TASKS. Handling time: 10. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:02:56.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:02:58.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:04:13.853Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:23:45.878Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:23:45.879Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:23:45.983Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:23:45.983Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:23:45.984Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:23:46.139Z - Time taken for 'hash changed files from watcher' 1.44925000006333ms
+[NX Daemon Server] - 2024-07-13T08:24:02.607Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:24:02.607Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:24:02.811Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:24:02.811Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:24:02.811Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:24:02.911Z - Time taken for 'hash changed files from watcher' 0.5842909999191761ms
+[NX Daemon Server] - 2024-07-13T08:24:47.648Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:24:47.649Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:24:48.051Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:24:48.052Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:24:48.052Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:24:48.157Z - Time taken for 'hash changed files from watcher' 0.47799999988637865ms
+[NX Daemon Server] - 2024-07-13T08:25:01.233Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:25:01.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:25:02.037Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:25:02.037Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:25:02.037Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:25:02.138Z - Time taken for 'hash changed files from watcher' 0.7809170000255108ms
+[NX Daemon Server] - 2024-07-13T08:29:00.659Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:29:00.660Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:29:02.265Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:29:02.266Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:29:02.266Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:29:02.387Z - Time taken for 'hash changed files from watcher' 1.1257080000359565ms
+[NX Daemon Server] - 2024-07-13T08:29:07.850Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:29:07.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:29:11.052Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:29:11.052Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:29:11.052Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:29:11.150Z - Time taken for 'hash changed files from watcher' 0.6097499998286366ms
+[NX Daemon Server] - 2024-07-13T08:29:36.186Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:29:36.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:29:42.588Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:29:42.588Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:29:42.588Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:29:42.685Z - Time taken for 'hash changed files from watcher' 0.3729169999714941ms
+[NX Daemon Server] - 2024-07-13T08:29:43.786Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:29:43.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:29:50.190Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:29:50.191Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:29:50.191Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:29:50.284Z - Time taken for 'hash changed files from watcher' 0.8222080001141876ms
+[NX Daemon Server] - 2024-07-13T08:29:51.825Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:29:51.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:29:58.228Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:29:58.229Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:29:58.229Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:29:58.324Z - Time taken for 'hash changed files from watcher' 0.9382499998901039ms
+[NX Daemon Server] - 2024-07-13T08:30:16.917Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:30:16.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:30:23.323Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:30:23.324Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:30:23.324Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:30:23.428Z - Time taken for 'hash changed files from watcher' 0.9717919998802245ms
+[NX Daemon Server] - 2024-07-13T08:30:50.414Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:30:50.415Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:30:50.416Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:30:50.417Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:30:50.418Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:30:50.418Z - Time taken for 'total for creating and serializing project graph' 0.20408299984410405ms
+[NX Daemon Server] - 2024-07-13T08:30:50.420Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:30:50.420Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-07-13T08:30:50.426Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:04.228Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:04.229Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:04.230Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:04.232Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:31:04.232Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:31:04.232Z - Time taken for 'total for creating and serializing project graph' 0.2725829998962581ms
+[NX Daemon Server] - 2024-07-13T08:31:04.234Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:31:04.234Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-07-13T08:31:04.239Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:12.941Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:12.942Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:12.943Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:12.944Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:31:12.944Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:31:12.944Z - Time taken for 'total for creating and serializing project graph' 0.16483400017023087ms
+[NX Daemon Server] - 2024-07-13T08:31:12.947Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:31:12.947Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-07-13T08:31:12.951Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:19.494Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:19.495Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:19.496Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:19.497Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:31:19.497Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:31:19.498Z - Time taken for 'total for creating and serializing project graph' 0.21016700007021427ms
+[NX Daemon Server] - 2024-07-13T08:31:19.500Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:31:19.500Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-07-13T08:31:19.506Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:32.498Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:32.499Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:32.499Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:31:32.501Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:31:32.501Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:31:32.503Z - Time taken for 'total for creating and serializing project graph' 0.21608399995602667ms
+[NX Daemon Server] - 2024-07-13T08:31:32.505Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:31:32.505Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-07-13T08:31:32.553Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:31:32.553Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:31:32.553Z - Handled HASH_TASKS. Handling time: 14. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:31:34.264Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-07-13T08:31:34.264Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-07-13T08:31:34.264Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:31:44.435Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-13T08:31:44.435Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-13T08:31:44.435Z - Handled PROCESS_IN_BACKGROUND. Handling time: 79. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:31:44.436Z - Uploading file artifacts
+[NX Daemon Server] - 2024-07-13T08:31:44.436Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-07-13T08:31:44.436Z - Sending EndRun request
+[NX Daemon Server] - 2024-07-13T08:31:44.480Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:31:46.477Z - Error when sending EndRun
+Error: This workspace is more than a week old and is not connected. Workspaces must be connected within 7 days of creation. Claim your workspace at https://cloud.nx.app
+    at Timeout._onTimeout (/Users/ely/Desktop/apps/everbyte/.nx/cache/cloud/2406.29.1.hotfix6/lib/daemon/process-run-end.js:24:7003)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-07-13T08:32:09.133Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:32:09.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:32:09.238Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:32:09.238Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:32:09.238Z - [REQUEST]: 
+🚀 ~ config:before {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'web',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: undefined,
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {},
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: []
+}
+🚀 ~ config: {
+  context: '/Users/ely/Desktop/apps/everbyte',
+  target: 'node',
+  node: false,
+  mode: 'none',
+  cache: undefined,
+  devtool: false,
+  output: {
+    libraryTarget: 'umd',
+    path: undefined,
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    hashFunction: 'xxhash64',
+    pathinfo: false,
+    scriptType: 'module'
+  },
+  watch: undefined,
+  watchOptions: { poll: undefined },
+  profile: undefined,
+  performance: { hints: false },
+  experiments: { cacheUnaffected: true },
+  ignoreWarnings: [ [Function (anonymous)] ],
+  optimization: {
+    sideEffects: true,
+    minimize: false,
+    minimizer: [ [TerserPlugin] ],
+    runtimeChunk: false,
+    concatenateModules: true
+  },
+  stats: {
+    hash: true,
+    timings: false,
+    cached: false,
+    cachedAssets: false,
+    modules: false,
+    warnings: true,
+    errors: true,
+    colors: true,
+    chunks: true,
+    assets: false,
+    chunkOrigins: false,
+    chunkModules: false,
+    children: false,
+    reasons: false,
+    version: false,
+    errorDetails: false,
+    moduleTrace: false,
+    usedExports: false
+  },
+  entry: {
+    '1708753745768-Init.m': '/Users/ely/Desktop/apps/everbyte/libs/workflow-data/src/migrations/migrations/1708753745768-Init.m.ts'
+  },
+  resolve: {},
+  module: {},
+  plugins: [],
+  externals: [
+    '@nestjs/core',
+    '@nestjs/common',
+    'typeorm',
+    '@nestjs/mapped-types'
+  ]
+}
+[NX Daemon Server] - 2024-07-13T08:32:09.359Z - Time taken for 'hash changed files from watcher' 0.586917000124231ms
+[NX Daemon Server] - 2024-07-13T08:32:13.442Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:32:13.443Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:32:13.443Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:32:13.445Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:32:13.445Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:32:13.445Z - Time taken for 'total for creating and serializing project graph' 0.19679099996574223ms
+[NX Daemon Server] - 2024-07-13T08:32:13.448Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:32:13.448Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-07-13T08:32:13.493Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:32:13.493Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:32:13.493Z - Handled HASH_TASKS. Handling time: 13. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:32:14.165Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T08:32:14.165Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:32:14.166Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-13T08:32:14.166Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-13T08:32:14.166Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-13T08:32:14.167Z - Time taken for 'total for creating and serializing project graph' 0.12154199997894466ms
+[NX Daemon Server] - 2024-07-13T08:32:14.168Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-13T08:32:14.168Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-07-13T08:32:14.199Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:32:14.199Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-13T08:32:14.199Z - Handled HASH_TASKS. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:32:14.705Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:32:16.812Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-07-13T08:32:16.812Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-07-13T08:32:16.812Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:32:16.817Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-13T08:32:16.855Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:32:17.812Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-07-13T08:32:17.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:32:17.914Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:32:17.914Z - [REQUEST]: apps/everbyte/src/environments/environment.ts,apps/everbyte/src/environments/environment.prod.ts
+[NX Daemon Server] - 2024-07-13T08:32:17.914Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T08:32:17.969Z - Time taken for 'hash changed files from watcher' 0.2931670001707971ms
+[NX Daemon Server] - 2024-07-13T08:32:19.322Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-07-13T08:32:19.322Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-07-13T08:32:19.322Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-13T08:32:19.395Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-13T08:32:19.395Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-13T08:32:19.395Z - Handled PROCESS_IN_BACKGROUND. Handling time: 36. Response time: 0.
+[NX Daemon Server] - 2024-07-13T08:32:19.396Z - Uploading file artifacts
+[NX Daemon Server] - 2024-07-13T08:32:19.396Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-07-13T08:32:19.396Z - Sending EndRun request
+[NX Daemon Server] - 2024-07-13T08:32:19.403Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-13T08:32:23.035Z - Error when sending EndRun
+Error: This workspace is more than a week old and is not connected. Workspaces must be connected within 7 days of creation. Claim your workspace at https://cloud.nx.app
+    at Timeout._onTimeout (/Users/ely/Desktop/apps/everbyte/.nx/cache/cloud/2406.29.1.hotfix6/lib/daemon/process-run-end.js:24:7003)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-07-13T08:34:16.179Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:34:16.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:34:16.383Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:34:16.384Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:34:16.384Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T08:34:16.489Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX Daemon Server] - 2024-07-13T08:34:16.490Z - Time taken for 'hash changed files from watcher' 0.5443339999765158ms
+[NX Daemon Server] - 2024-07-13T08:34:17.834Z - [WATCHER]: apps/workflow-api/project.json was modified
+[NX Daemon Server] - 2024-07-13T08:34:17.835Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-13T08:34:18.238Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-13T08:34:18.238Z - [REQUEST]: apps/workflow-api/project.json
+[NX Daemon Server] - 2024-07-13T08:34:18.238Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-13T08:34:18.324Z - Time taken for 'hash changed files from watcher' 0.7008330000098795ms

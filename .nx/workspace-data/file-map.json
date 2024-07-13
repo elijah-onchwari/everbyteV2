@@ -153,7 +153,7 @@
       },
       {
         "file": ".env",
-        "hash": "7620784837567987986"
+        "hash": "9270929033790763119"
       },
       {
         "file": ".env.docker.compose",
@@ -173,15 +173,11 @@
       },
       {
         "file": ".gitignore",
-        "hash": "8491837053101957257"
+        "hash": "4296368183570553144"
       },
       {
         "file": ".npmrc ",
         "hash": "15947402389963144506"
-      },
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "13514922235401384643"
       },
       {
         "file": ".prettierignore",
@@ -249,133 +245,6 @@
       }
     ],
     "projectFileMap": {
-      "everbyte-e2e": [
-        {
-          "file": "apps/everbyte-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/everbyte-e2e/cypress.config.ts",
-          "hash": "18021965825968405109",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/everbyte-e2e/project.json",
-          "hash": "16774595533084665426"
-        },
-        {
-          "file": "apps/everbyte-e2e/src/e2e/app.cy.ts",
-          "hash": "10367831725328390149"
-        },
-        {
-          "file": "apps/everbyte-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/everbyte-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/everbyte-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/everbyte-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/everbyte-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
-        }
-      ],
-      "workflow-modules": [
-        {
-          "file": "libs/workflow-modules/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "libs/workflow-modules/README.md",
-          "hash": "15404659726918957405"
-        },
-        {
-          "file": "libs/workflow-modules/jest.config.ts",
-          "hash": "113309609117275923"
-        },
-        {
-          "file": "libs/workflow-modules/project.json",
-          "hash": "15848431564108585003"
-        },
-        {
-          "file": "libs/workflow-modules/src/index.ts",
-          "hash": "3251915047292856092"
-        },
-        {
-          "file": "libs/workflow-modules/src/lib/workflow-modules.module.ts",
-          "hash": "6327670467002630585",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/workflow-modules/tsconfig.json",
-          "hash": "5840880287502376438"
-        },
-        {
-          "file": "libs/workflow-modules/tsconfig.lib.json",
-          "hash": "3550173832616418300"
-        },
-        {
-          "file": "libs/workflow-modules/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        }
-      ],
-      "workflow-api-e2e": [
-        {
-          "file": "apps/workflow-api-e2e/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "apps/workflow-api-e2e/jest.config.ts",
-          "hash": "15167270386623344124"
-        },
-        {
-          "file": "apps/workflow-api-e2e/project.json",
-          "hash": "12042670394369726028"
-        },
-        {
-          "file": "apps/workflow-api-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/workflow-api-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/workflow-api-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/workflow-api-e2e/src/workflow-api/workflow-api.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/workflow-api-e2e/tsconfig.json",
-          "hash": "15443990093475294480"
-        },
-        {
-          "file": "apps/workflow-api-e2e/tsconfig.spec.json",
-          "hash": "14954872453723519891"
-        }
-      ],
       "everbyte": [
         {
           "file": "apps/everbyte/.eslintrc.json",
@@ -595,6 +464,171 @@
           "hash": "11550347367511341917"
         }
       ],
+      "service-notification": [
+        {
+          "file": "apps/service-notification/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/service-notification/jest.config.ts",
+          "hash": "13631438840508334633"
+        },
+        {
+          "file": "apps/service-notification/project.json",
+          "hash": "10368209380105695121"
+        },
+        {
+          "file": "apps/service-notification/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/service-notification/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/service-notification/src/app/app.module.ts",
+          "hash": "3163250445227373966",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/service-notification/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/service-notification/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/service-notification/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/service-notification/src/main.ts",
+          "hash": "14665051517781311859",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/service-notification/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/service-notification/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/service-notification/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/service-notification/webpack.config.js",
+          "hash": "10456143773332637123",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "workflow-api-e2e": [
+        {
+          "file": "apps/workflow-api-e2e/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/workflow-api-e2e/jest.config.ts",
+          "hash": "15167270386623344124"
+        },
+        {
+          "file": "apps/workflow-api-e2e/project.json",
+          "hash": "12042670394369726028"
+        },
+        {
+          "file": "apps/workflow-api-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/workflow-api-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/workflow-api-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/workflow-api-e2e/src/workflow-api/workflow-api.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/workflow-api-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/workflow-api-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
+      "workflow-modules": [
+        {
+          "file": "libs/workflow-modules/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/workflow-modules/README.md",
+          "hash": "15404659726918957405"
+        },
+        {
+          "file": "libs/workflow-modules/jest.config.ts",
+          "hash": "113309609117275923"
+        },
+        {
+          "file": "libs/workflow-modules/project.json",
+          "hash": "15848431564108585003"
+        },
+        {
+          "file": "libs/workflow-modules/src/index.ts",
+          "hash": "3251915047292856092"
+        },
+        {
+          "file": "libs/workflow-modules/src/lib/workflow-modules.module.ts",
+          "hash": "6327670467002630585",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/workflow-modules/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/workflow-modules/tsconfig.lib.json",
+          "hash": "3550173832616418300"
+        },
+        {
+          "file": "libs/workflow-modules/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
       "workflow-api": [
         {
           "file": "apps/workflow-api/.eslintrc.json",
@@ -686,6 +720,50 @@
           ]
         }
       ],
+      "service-notification-e2e": [
+        {
+          "file": "apps/service-notification-e2e/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/service-notification-e2e/jest.config.ts",
+          "hash": "9132977429771975486"
+        },
+        {
+          "file": "apps/service-notification-e2e/project.json",
+          "hash": "4487070308462474617"
+        },
+        {
+          "file": "apps/service-notification-e2e/src/service-notification/service-notification.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/service-notification-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/service-notification-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/service-notification-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/service-notification-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/service-notification-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
       "shared-utils": [
         {
           "file": "libs/shared-utils/.eslintrc.json",
@@ -729,6 +807,290 @@
         {
           "file": "libs/shared-utils/tsconfig.spec.json",
           "hash": "11550347367511341917"
+        }
+      ],
+      "common": [
+        {
+          "file": "libs/common/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/common/README.md",
+          "hash": "17127957463758053849"
+        },
+        {
+          "file": "libs/common/jest.config.ts",
+          "hash": "14855072417691290278"
+        },
+        {
+          "file": "libs/common/project.json",
+          "hash": "15584497783910564977"
+        },
+        {
+          "file": "libs/common/src/constants.ts",
+          "hash": "9201967612184960207"
+        },
+        {
+          "file": "libs/common/src/enums/http-status.enum.ts",
+          "hash": "15878649701840619997"
+        },
+        {
+          "file": "libs/common/src/enums/index.ts",
+          "hash": "11161527031362209234"
+        },
+        {
+          "file": "libs/common/src/index.ts",
+          "hash": "6990298857771926849"
+        },
+        {
+          "file": "libs/common/src/pipes/bulk-body-load-transform.pipe.ts",
+          "hash": "4799515536876884954",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/common/src/pipes/column-numeric-transformer.pipe.ts",
+          "hash": "14120727907982061436",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "libs/common/src/pipes/index.ts",
+          "hash": "15145436517615049518"
+        },
+        {
+          "file": "libs/common/src/pipes/parse-json.pipe.ts",
+          "hash": "9011845206218402741",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "libs/common/src/pipes/uuid-validation.pipe.ts",
+          "hash": "1506095069034360347",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "libs/common/src/types/deep-partial.ts",
+          "hash": "8939252721550814303"
+        },
+        {
+          "file": "libs/common/src/types/index.ts",
+          "hash": "5911828983501733795"
+        },
+        {
+          "file": "libs/common/src/utils/deep-clone.ts",
+          "hash": "15766141185683671027"
+        },
+        {
+          "file": "libs/common/src/utils/deep-merge.ts",
+          "hash": "4603136882682621852"
+        },
+        {
+          "file": "libs/common/src/utils/index.ts",
+          "hash": "4519955579634616904"
+        },
+        {
+          "file": "libs/common/src/utils/mixins.ts",
+          "hash": "14811083560925869902"
+        },
+        {
+          "file": "libs/common/src/utils/shared-utils.ts",
+          "hash": "2563620184709225744"
+        },
+        {
+          "file": "libs/common/src/utils/to-hex-string.ts",
+          "hash": "1237025490455444296"
+        },
+        {
+          "file": "libs/common/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/common/tsconfig.lib.json",
+          "hash": "3550173832616418300"
+        },
+        {
+          "file": "libs/common/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "config": [
+        {
+          "file": "libs/config/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/config/README.md",
+          "hash": "3621170795989262186"
+        },
+        {
+          "file": "libs/config/jest.config.ts",
+          "hash": "5537088458737026613"
+        },
+        {
+          "file": "libs/config/project.json",
+          "hash": "429768123661098767"
+        },
+        {
+          "file": "libs/config/src/config/base-config.service.ts",
+          "hash": "14754779464118983651",
+          "deps": [
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "libs/config/src/config/config.module.ts",
+          "hash": "10504216156176772702",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/config/src/config/config.service.spec.ts",
+          "hash": "5067595339138905363",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "libs/config/src/config/config.service.ts",
+          "hash": "8461256319126166301",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:ioredis",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "libs/config/src/config/env.variables.ts",
+          "hash": "15094225395585538629",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "libs/config/src/config/index.ts",
+          "hash": "9469043302329576602"
+        },
+        {
+          "file": "libs/config/src/environments/environment.ts",
+          "hash": "8157342052435217174"
+        },
+        {
+          "file": "libs/config/src/environments/index.ts",
+          "hash": "17615494001918820747"
+        },
+        {
+          "file": "libs/config/src/index.ts",
+          "hash": "5078695206283603799"
+        },
+        {
+          "file": "libs/config/src/interfaces/config.interface.ts",
+          "hash": "4229304062556570663",
+          "deps": [
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "libs/config/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/config/tsconfig.lib.json",
+          "hash": "3550173832616418300"
+        },
+        {
+          "file": "libs/config/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "core": [
+        {
+          "file": "libs/core/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/core/README.md",
+          "hash": "862743182427189852"
+        },
+        {
+          "file": "libs/core/jest.config.ts",
+          "hash": "12432511530162400724"
+        },
+        {
+          "file": "libs/core/project.json",
+          "hash": "13121793408434241062"
+        },
+        {
+          "file": "libs/core/src/index.ts",
+          "hash": "17485950192006573864"
+        },
+        {
+          "file": "libs/core/src/lib/core.module.ts",
+          "hash": "1891830424350333777",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/core/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/core/tsconfig.lib.json",
+          "hash": "3550173832616418300"
+        },
+        {
+          "file": "libs/core/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "everbyte-e2e": [
+        {
+          "file": "apps/everbyte-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/everbyte-e2e/cypress.config.ts",
+          "hash": "18021965825968405109",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/everbyte-e2e/project.json",
+          "hash": "16774595533084665426"
+        },
+        {
+          "file": "apps/everbyte-e2e/src/e2e/app.cy.ts",
+          "hash": "10367831725328390149"
+        },
+        {
+          "file": "apps/everbyte-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/everbyte-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/everbyte-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/everbyte-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/everbyte-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
         }
       ],
       "payment-api-e2e": [
@@ -894,372 +1256,6 @@
         {
           "file": "libs/workflow-dtos/tsconfig.spec.json",
           "hash": "11550347367511341917"
-        }
-      ],
-      "service-notification-e2e": [
-        {
-          "file": "apps/service-notification-e2e/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "apps/service-notification-e2e/jest.config.ts",
-          "hash": "9132977429771975486"
-        },
-        {
-          "file": "apps/service-notification-e2e/project.json",
-          "hash": "4487070308462474617"
-        },
-        {
-          "file": "apps/service-notification-e2e/src/service-notification/service-notification.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/service-notification-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/service-notification-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/service-notification-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/service-notification-e2e/tsconfig.json",
-          "hash": "15443990093475294480"
-        },
-        {
-          "file": "apps/service-notification-e2e/tsconfig.spec.json",
-          "hash": "14954872453723519891"
-        }
-      ],
-      "core": [
-        {
-          "file": "libs/core/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "libs/core/README.md",
-          "hash": "862743182427189852"
-        },
-        {
-          "file": "libs/core/jest.config.ts",
-          "hash": "12432511530162400724"
-        },
-        {
-          "file": "libs/core/project.json",
-          "hash": "13121793408434241062"
-        },
-        {
-          "file": "libs/core/src/index.ts",
-          "hash": "17485950192006573864"
-        },
-        {
-          "file": "libs/core/src/lib/core.module.ts",
-          "hash": "1891830424350333777",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/core/tsconfig.json",
-          "hash": "5840880287502376438"
-        },
-        {
-          "file": "libs/core/tsconfig.lib.json",
-          "hash": "3550173832616418300"
-        },
-        {
-          "file": "libs/core/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        }
-      ],
-      "config": [
-        {
-          "file": "libs/config/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "libs/config/README.md",
-          "hash": "3621170795989262186"
-        },
-        {
-          "file": "libs/config/jest.config.ts",
-          "hash": "5537088458737026613"
-        },
-        {
-          "file": "libs/config/project.json",
-          "hash": "429768123661098767"
-        },
-        {
-          "file": "libs/config/src/config/base-config.service.ts",
-          "hash": "14754779464118983651",
-          "deps": [
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "libs/config/src/config/config.module.ts",
-          "hash": "10504216156176772702",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/config/src/config/config.service.spec.ts",
-          "hash": "5067595339138905363",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "libs/config/src/config/config.service.ts",
-          "hash": "8461256319126166301",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:ioredis",
-            "npm:typeorm"
-          ]
-        },
-        {
-          "file": "libs/config/src/config/env.variables.ts",
-          "hash": "15094225395585538629",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "libs/config/src/config/index.ts",
-          "hash": "9469043302329576602"
-        },
-        {
-          "file": "libs/config/src/environments/environment.ts",
-          "hash": "8157342052435217174"
-        },
-        {
-          "file": "libs/config/src/environments/index.ts",
-          "hash": "17615494001918820747"
-        },
-        {
-          "file": "libs/config/src/index.ts",
-          "hash": "5078695206283603799"
-        },
-        {
-          "file": "libs/config/src/interfaces/config.interface.ts",
-          "hash": "4229304062556570663",
-          "deps": [
-            "npm:@nestjs/typeorm"
-          ]
-        },
-        {
-          "file": "libs/config/tsconfig.json",
-          "hash": "5840880287502376438"
-        },
-        {
-          "file": "libs/config/tsconfig.lib.json",
-          "hash": "3550173832616418300"
-        },
-        {
-          "file": "libs/config/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        }
-      ],
-      "common": [
-        {
-          "file": "libs/common/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "libs/common/README.md",
-          "hash": "17127957463758053849"
-        },
-        {
-          "file": "libs/common/jest.config.ts",
-          "hash": "14855072417691290278"
-        },
-        {
-          "file": "libs/common/project.json",
-          "hash": "15584497783910564977"
-        },
-        {
-          "file": "libs/common/src/constants.ts",
-          "hash": "9201967612184960207"
-        },
-        {
-          "file": "libs/common/src/enums/http-status.enum.ts",
-          "hash": "15878649701840619997"
-        },
-        {
-          "file": "libs/common/src/enums/index.ts",
-          "hash": "11161527031362209234"
-        },
-        {
-          "file": "libs/common/src/index.ts",
-          "hash": "6990298857771926849"
-        },
-        {
-          "file": "libs/common/src/pipes/bulk-body-load-transform.pipe.ts",
-          "hash": "4799515536876884954",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/common/src/pipes/column-numeric-transformer.pipe.ts",
-          "hash": "14120727907982061436",
-          "deps": [
-            "npm:typeorm"
-          ]
-        },
-        {
-          "file": "libs/common/src/pipes/index.ts",
-          "hash": "15145436517615049518"
-        },
-        {
-          "file": "libs/common/src/pipes/parse-json.pipe.ts",
-          "hash": "9011845206218402741",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "libs/common/src/pipes/uuid-validation.pipe.ts",
-          "hash": "1506095069034360347",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "libs/common/src/types/deep-partial.ts",
-          "hash": "8939252721550814303"
-        },
-        {
-          "file": "libs/common/src/types/index.ts",
-          "hash": "5911828983501733795"
-        },
-        {
-          "file": "libs/common/src/utils/deep-clone.ts",
-          "hash": "15766141185683671027"
-        },
-        {
-          "file": "libs/common/src/utils/deep-merge.ts",
-          "hash": "4603136882682621852"
-        },
-        {
-          "file": "libs/common/src/utils/index.ts",
-          "hash": "4519955579634616904"
-        },
-        {
-          "file": "libs/common/src/utils/mixins.ts",
-          "hash": "14811083560925869902"
-        },
-        {
-          "file": "libs/common/src/utils/shared-utils.ts",
-          "hash": "2563620184709225744"
-        },
-        {
-          "file": "libs/common/src/utils/to-hex-string.ts",
-          "hash": "1237025490455444296"
-        },
-        {
-          "file": "libs/common/tsconfig.json",
-          "hash": "5840880287502376438"
-        },
-        {
-          "file": "libs/common/tsconfig.lib.json",
-          "hash": "3550173832616418300"
-        },
-        {
-          "file": "libs/common/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        }
-      ],
-      "service-notification": [
-        {
-          "file": "apps/service-notification/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "apps/service-notification/jest.config.ts",
-          "hash": "13631438840508334633"
-        },
-        {
-          "file": "apps/service-notification/project.json",
-          "hash": "10368209380105695121"
-        },
-        {
-          "file": "apps/service-notification/src/app/app.controller.spec.ts",
-          "hash": "9499997688052526633",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/service-notification/src/app/app.controller.ts",
-          "hash": "9005150069945785676",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/service-notification/src/app/app.module.ts",
-          "hash": "3163250445227373966",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/service-notification/src/app/app.service.spec.ts",
-          "hash": "8587461140686713758",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/service-notification/src/app/app.service.ts",
-          "hash": "9967902337593410053",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/service-notification/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/service-notification/src/main.ts",
-          "hash": "14665051517781311859",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/service-notification/tsconfig.app.json",
-          "hash": "3171572500325445971"
-        },
-        {
-          "file": "apps/service-notification/tsconfig.json",
-          "hash": "3490524966360018312"
-        },
-        {
-          "file": "apps/service-notification/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        },
-        {
-          "file": "apps/service-notification/webpack.config.js",
-          "hash": "10456143773332637123",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
         }
       ]
     }
